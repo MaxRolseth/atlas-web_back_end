@@ -13,7 +13,7 @@ export default class Currency {
     return this._name;
   }
 
-  get displayFullCurrency() {
+  get currency() {
     return this.displayFullCurrency();
   }
 
