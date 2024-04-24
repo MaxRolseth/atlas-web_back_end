@@ -6,15 +6,13 @@ export default class Building {
     this._sqft = sqft;
   }
 
-  //getters
+  // getters
   get sqft() {
     return this._sqft;
   }
 
-  //setters
+  // setters
   set sqft(sqft) {
     this._sqft = sqft;
   }
-
-  
 }

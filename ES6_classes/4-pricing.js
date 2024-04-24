@@ -1,4 +1,4 @@
-//import Currency from './3-currency.js';
+// import Currency from './3-currency.js';
 
 export default class Pricing {
   constructor(amount, currency) {
@@ -6,11 +6,11 @@ export default class Pricing {
     this._currency = currency;
   }
 
-  //getters
+  // getters
   get amount() {
     return this._amount;
   }
-  
+
   get currency() {
     return this._currency;
   }
@@ -26,7 +26,8 @@ export default class Pricing {
   static convertPrice(amount, conversionRate) {
     return amount * conversionRate;
   }
-  //setters
+
+  // setters
   set amount(amount) {
     this._amount = amount;
   }
