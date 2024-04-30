@@ -1,4 +1,3 @@
-
 module.exports = {
   env: {
     browser: false,
@@ -7,7 +6,7 @@ module.exports = {
   },
   extends: [
     'airbnb-base',
-   
+
   ],
   globals: {
     Atomics: 'readonly',
@@ -17,7 +16,7 @@ module.exports = {
     ecmaVersion: 2018,
     sourceType: 'module',
   },
- 
+
   rules: {
     'no-console': 'off',
     'no-shadow': 'off',
@@ -27,10 +26,10 @@ module.exports = {
       'WithStatement',
     ],
   },
-  overrides:[
+  overrides: [
     {
       files: ['*.js'],
       excludedFiles: 'babel.config.js',
-    }
-  ]
+    },
+  ],
 };
